@@ -11,7 +11,7 @@ export default function QuemSomos() {
           cacau no sul da Bahia e transforma cada amêndoa em chocolate de alta
           qualidade no interior de São Paulo. Seguimos o conceito tree to bar,
           garantindo total controle sobre cada etapa da produção, do plantio à
-          barra, para entregar um chocolate puro, de origem e e sem aditivos
+          barra, para entregar um chocolate puro, de origem e sem aditivos
           desnecessários.
         </div>
         <Image
@@ -30,7 +30,7 @@ export default function QuemSomos() {
           width={500}
           height={500}
         />
-        <div className={styles.titulo}>Chocolate de verdade</div>
+        <div className={styles.titulo}>Chocolate de origem</div>
         <div className={styles.texto}>
           Puro por natureza, nosso chocolate é livre de gordura hidrogenada,
           aromatizantes, conservantes, glúten e soja. Mantendo apenas os

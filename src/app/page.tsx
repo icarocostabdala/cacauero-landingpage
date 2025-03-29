@@ -167,7 +167,7 @@ export default function Home() {
         </div> */}
 
         <div className={styles.produtosContainer}>
-          <h1 id="produtos">Confira nossos produtos</h1>
+          <h1 id="produtos">Produtos</h1>
           <section>
             <Produtos />
           </section>

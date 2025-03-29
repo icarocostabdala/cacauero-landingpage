@@ -69,7 +69,7 @@ export default function Produtos() {
                   height={1000}
                 />
                 <h2>{produto.titulo}</h2>
-                <p>{produto.descricao}</p>
+                {/* <p>{produto.descricao}</p> */}
               </div>
             </li>
           ))}

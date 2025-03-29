@@ -39,7 +39,7 @@ const Contato = () => {
           rel="noopener noreferrer"
         >
           <Image
-            src="/icons8-instagram-50.png"
+            src="/icons8-instagram-100.png"
             alt="Instagram"
             width={50}
             height={50}

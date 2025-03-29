@@ -5,7 +5,7 @@ export default function Hero() {
     <section id="hero" className={styles.hero}>
       <div className={styles.textContainer}>
         <h2>Tree to bar</h2>
-        <h1>Dos nossos cacaueros no sul da Bahia até a barra de chocolate.</h1>
+        <h1>Dos nossos cacaueiros no sul da Bahia até a barra de chocolate.</h1>
       </div>
     </section>
   );

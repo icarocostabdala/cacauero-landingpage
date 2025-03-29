@@ -1,0 +1,57 @@
+.contato {
+  /* background-color: #d8e5d6; */
+  color: #fbf4ea;
+  background-color: #331716;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 5%;
+  border-radius: 25px;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.coluna {
+  flex: 1;
+  padding: 10px;
+  min-width: 200px;
+}
+
+.endereco {
+  font-size: 1rem;
+  text-align: left;
+  line-height: 25px;
+}
+
+.redesSociais {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.logoFooter {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(106, 69, 165);
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .contato {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coluna {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .redessociais {
+    justify-content: center;
+  }
+}

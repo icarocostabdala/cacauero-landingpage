@@ -1,0 +1,59 @@
+.quemSomos {
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #fff;
+  /* background-color: #f6b652; */
+  background-color: #c73926;
+  border-radius: 25px;
+  /* font-weight: 600; */
+  letter-spacing: 0.5px;
+}
+
+.quemSomos img {
+  border-radius: 25px;
+}
+
+.colunaEsquerda,
+.colunaDireita {
+  flex: 1;
+  margin: 10px;
+}
+
+.colunaEsquerda .titulo,
+.colunaDireita .titulo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.colunaEsquerda .texto,
+.colunaDireita .texto {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.colunaEsquerda .imagem,
+.colunaDireita .imagem {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .quemSomos {
+    flex-direction: column;
+  }
+
+  .colunaDireita .titulo {
+    order: 1;
+  }
+
+  .colunaDireita .texto {
+    order: 2;
+  }
+
+  .colunaDireita .imagem {
+    order: 3;
+  }
+}

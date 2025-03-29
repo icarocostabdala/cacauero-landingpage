@@ -4,6 +4,7 @@ import Contato from "@/components/Contato";
 import Hero from "@/components/Hero";
 import Produtos from "@/components/Produtos";
 import QuemSomos from "@/components/QuemSomos";
+import { Analytics } from "@vercel/analytics/react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import styles from "./page.module.css";
@@ -198,6 +199,7 @@ export default function Home() {
           ↑
         </button>
       </div>
+      <Analytics />
     </div>
   );
 }
